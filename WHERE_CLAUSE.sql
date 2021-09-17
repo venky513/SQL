@@ -1,0 +1,9 @@
+--EMPLOYEES WITH SALARY MORE THAN 10K
+select * from employees where salary > 10000;
+
+--EMPLOYEES WITH JOB_ID = IT_PROG
+select * from employees where job_id='IT_PROG';
+
+
+--EMPLOYEE HIRED ON A SPECIFIC DATE
+SELECT * FROM EMPLOYEES WHERE HIRE_DATE='03-01-06';
